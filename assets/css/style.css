@@ -1,0 +1,79 @@
+/* GLOBAL RULES */
+body {
+  background: #f2f2f2;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  /* background: salmon; */
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* TITLE */
+
+H1 {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* HEADER */
+
+header {
+  background-color: #f6cc03;
+  height: 128px;
+}
+
+header .logo {
+  width: 162px;
+}
+
+header .menu span {
+  /* background: salmon; */
+  margin: 20px;
+  color: #333333;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.baseline {
+  background: #fff;
+  margin-top: 50px;
+}
+
+.baseline p {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+/* MAIN */
+
+.movie {
+  padding: 50px 20px 40px 20px;
+}
+.movie img {
+  width: 200px;
+}
+
+.movie ul {
+  margin-top: 40px;
+}
+
+.movie ul .blue-text {
+  color: #2c82c7;
+  font-size: 20px;
+}
+
+.actors img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}
