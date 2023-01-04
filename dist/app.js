@@ -8,6 +8,7 @@ class A {
     }
 }
 const aInstance = new A();
+//Test
 // type User = { firstname: string; lastname: string };
 // type DateString = string;
 // type Id = string | number;
